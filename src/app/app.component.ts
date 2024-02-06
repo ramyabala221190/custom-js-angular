@@ -1,4 +1,5 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
+import { environment } from 'src/environments/environment';
 //import * as moment from 'moment';
 
 @Component({
@@ -14,7 +15,9 @@ export class AppComponent {
   isValid:boolean=false;
   heading:string=title;
   
-  ngOnInit(){}
+  ngOnInit(){
+    console.log("logging the environment.ts file",environment)
+  }
 
   changeColor(){
     //$(this.dateElem?.nativeElement).addClass('highlight')
