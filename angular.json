@@ -36,6 +36,7 @@
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/moment/min/moment.min.js",
               "src/assets/js/date.js",
+              "src/assets/js/config-1.js" ,           
               "src/assets/js/config.js"
             ]
           },

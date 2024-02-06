@@ -16,7 +16,7 @@ export class AppComponent {
   heading:string=title;
   
   ngOnInit(){
-    console.log("logging the environment.ts file",environment)
+    console.log(environment)
   }
 
   changeColor(){
